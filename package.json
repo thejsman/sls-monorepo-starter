@@ -1,0 +1,15 @@
+{
+	"name": "sls-monorepo-starter",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"author": "NB",
+	"private": true,
+	"workspaces": [
+		"packages/*",
+		"services/*"
+	],
+	"devDependencies": {
+		"lerna": "^4.0.0"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"name": "service1",
+	"version": "1.0.0",
+	"description": "sample service of a monorepo",
+	"main": "handler.js",
+	"author": "NB",
+	"license": "MIT",
+	"dependencies": {
+		"package1": "1.0.0"
+	},
+	"devDependencies": {
+		"serverless-bundle": "^5.3.0"
+	}
+}
